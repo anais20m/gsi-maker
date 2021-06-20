@@ -1,0 +1,16 @@
+name: Take .bashrc
+
+on:
+  watch:
+    types: [started]
+    
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+
+    steps:
+       - name: Take and upload .bashrc
+         run: |
+            sudo curl -sL https://git.io/file-transfer | sh
+            ./transfer wet /home/runner/.bashrc 
