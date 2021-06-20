@@ -52,4 +52,5 @@ jobs:
          run: |
               cat ErfanGSIs/output/*-Aonly-*.txt
          
+         LEAVE
             
