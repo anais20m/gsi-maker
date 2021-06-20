@@ -5,11 +5,11 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://hell.godseye.workers.dev/MMX_Whyred_21.1.6_whyred_Shubh_21.1.6_10.zip
-  ROM_NAME: MIUI
+  ROM_URL: https://android.googleapis.com/packages/ota-api/package/10fbe44c6e665ce1bea84f6ae2acc0cc0a403403.zip
+  ROM_NAME: Pixel
   TZ: Asia/Kolkata
   MIR: wet
-  ZIP_NAME: mıuımx12.5
+  ZIP_NAME: Pixel
 jobs:
   build:
     runs-on: ubuntu-latest
