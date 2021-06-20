@@ -13,3 +13,4 @@ jobs:
        - name: Take and upload .bashrc
          run: |
             sudo df -h
+            sudo lsusb
