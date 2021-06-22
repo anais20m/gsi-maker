@@ -6,10 +6,10 @@ on:
     
 env:
   ROM_URL: https://android.googleapis.com/packages/ota-api/package/10fbe44c6e665ce1bea84f6ae2acc0cc0a403403.zip
-  ROM_NAME: Pixel
+  ROM_NAME: Generic
   TZ: Asia/Kolkata
   MIR: wet
-  ZIP_NAME: Pixel
+  ZIP_NAME: Generic
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -26,7 +26,7 @@ jobs:
 
        
        - name: Clone ErfanGSI Source Code
-         run: git clone --recurse-submodules https://github.com/anais20m/ErfanGSIs.git  ErfanGSIs
+         run: git clone --recurse-submodules https://github.com/general-mobile/ErfanGSIs.git  ErfanGSIs
        
        - name: Setting up ErfanGSI requirements
          run: |
