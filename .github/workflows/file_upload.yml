@@ -15,7 +15,7 @@ jobs:
            
        - name: Initializing environment
          run: |
-            sudo curl --output gm8.zip https://doc-0k-30-docs.googleusercontent.com/docs/securesc/mot9f8738hvifkagjvohjikji97r7l6k/988v0esdeki0budo9i2bpfia8ivnj5su/1624445325000/12168087312111052738/00037468696252207804/13-3-jt940dB46yluRCu_97Wn_v1DFMDV?e=download&authuser=0&nonce=vv7ov20uu2aku&user=00037468696252207804&hash=5nbooppq6rc335363117rh2kn27td5t2
+            sudo curl --output gm8.zip https://doc-0k-2c-docs.googleusercontent.com/docs/securesc/i7dhvu6rtl5l9b26v9v54r6n3q5v4i1b/she614f7254lha7t14vbgvhn0h8hht9o/1624445550000/12168087312111052738/18169119795204440750Z/13-3-jt940dB46yluRCu_97Wn_v1DFMDV?e=download&nonce=hv75qve75glv4&user=18169119795204440750Z&hash=9uihabf6oa8d2erducd8p19riju8svjh
             sudo unzip gm8.zip
             sudo ls
             sudo curl https://raw.githubusercontent.com/Mikubill/transfer/master/install.sh --output install.sh
