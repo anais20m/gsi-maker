@@ -15,7 +15,9 @@ jobs:
            
        - name: Initializing environment
          run: |
-            sudo curl https://r2---sn-nv47lnl6.gvt1.com/packages/data/ota-api/package/10fbe44c6e665ce1bea84f6ae2acc0cc0a403403.zip?cms_redirect=yes&mh=K2&mip=37.130.114.3&mm=31&mn=sn-nv47lnl6&ms=au&mt=1624443641&mv=m&mvi=2&pl=24 --output gm8_ota.zip
+            sudo curl --output gm8.zip https://doc-0k-30-docs.googleusercontent.com/docs/securesc/mot9f8738hvifkagjvohjikji97r7l6k/988v0esdeki0budo9i2bpfia8ivnj5su/1624445325000/12168087312111052738/00037468696252207804/13-3-jt940dB46yluRCu_97Wn_v1DFMDV?e=download&authuser=0&nonce=vv7ov20uu2aku&user=00037468696252207804&hash=5nbooppq6rc335363117rh2kn27td5t2
+            sudo unzip gm8.zip
+            sudo ls
             sudo curl https://raw.githubusercontent.com/Mikubill/transfer/master/install.sh --output install.sh
             sudo chmod +x install.sh
             sudo ./install.sh
