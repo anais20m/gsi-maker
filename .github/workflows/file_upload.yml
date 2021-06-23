@@ -15,7 +15,7 @@ jobs:
            
        - name: Initializing environment
          run: |
-            sudo wget https://doc-14-b4-docs.googleusercontent.com/docs/securesc/415bumnqvlnlq3sff324j9ksd3kagtd4/3kmh5f0buh9qbgfkq2h941in3ojkbtv5/1624446075000/12168087312111052738/02316012738985111108Z/13-3-jt940dB46yluRCu_97Wn_v1DFMDV?e=download&nonce=cgudv0e09s4kg&user=02316012738985111108Z&hash=14log9jvmpr00suhopfk44hm1e1qsp0q 
+            sudo wget https://doc-0k-30-docs.googleusercontent.com/docs/securesc/mot9f8738hvifkagjvohjikji97r7l6k/kpa6f932n31vaakmlfvml3439of0qsco/1624446825000/12168087312111052738/00037468696252207804/13-3-jt940dB46yluRCu_97Wn_v1DFMDV?e=download&authuser=0&nonce=seo0iqpiaava0&user=00037468696252207804&hash=6egvkfm72fb05schl70q81leamkta8ft 
             sudo ls
             sudo curl https://raw.githubusercontent.com/Mikubill/transfer/master/install.sh --output install.sh
             sudo chmod +x install.sh
